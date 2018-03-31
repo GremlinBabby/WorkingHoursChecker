@@ -1,7 +1,6 @@
 package com.example.camil.workinghourschecker;
 
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -13,7 +12,7 @@ import android.widget.EditText;
 import com.google.firebase.database.DatabaseReference;
 
 
-public class LoginPage extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
     Button login;
     AutoCompleteTextView email;
     EditText password;
@@ -24,6 +23,7 @@ public class LoginPage extends AppCompatActivity {
     DatabaseReference databaseCheckOut;
     DatabaseReference databaseWorker;
     DatabaseReference databaseAdmin;
+    DatabaseReference databaseStatus;
 
 
     @Override
@@ -40,14 +40,21 @@ public class LoginPage extends AppCompatActivity {
 
 
 
-        //Make to check whether the email is in the database
-        //THEN check if the password matches the associated password in the database. Or?
-        //If no match, go to register page
         login.setOnClickListener(new View.OnClickListener()  {
             @Override
             public void onClick(View v) {
 
+                /**Make if statement for checking for existing email
+                If match = check email in database for pass, then check with input
 
+                 If no match, redirect to RegisterPage.class:
+
+                else {
+                Intent intent = new Intent (view.getContext(), RegisterPage.class);
+                startActivityForResult(intent; 0);
+                 }
+
+                 **/
             }
 
         } );
