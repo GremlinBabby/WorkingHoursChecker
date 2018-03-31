@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "808434614685",
+    "firebase_url": "https://workinghourschecker.firebaseio.com",
+    "project_id": "workinghourschecker",
+    "storage_bucket": "workinghourschecker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:808434614685:android:fbf3e724a3a9948e",
+        "android_client_info": {
+          "package_name": "com.example.camil.workinghourschecker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "808434614685-gj87ujjqhjditqr9667qa874poak0ufo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.camil.workinghourschecker",
+            "certificate_hash": "a48748c07ccb4fa6dbb22b2f7e5ec4565a5066a5"
+          }
+        },
+        {
+          "client_id": "808434614685-dpjrqdvem9orkvet0a9tm9ajb9f3i2s2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCK5Wo42hAjfvwnozngkX1JB3fyioRxrLo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "808434614685-dpjrqdvem9orkvet0a9tm9ajb9f3i2s2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
