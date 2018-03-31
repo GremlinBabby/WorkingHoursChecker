@@ -22,7 +22,7 @@ public class LoginPage extends Activity {
     @Override
     protected void onCreate (Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login_page);
+        setContentView(R.layout.login_page);
 
         login = findViewById(R.id.loginButton);
         email = findViewById(R.id.emailInput);
